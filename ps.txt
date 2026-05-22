@@ -1,0 +1,27 @@
+Create class FoodItem
+
+  name
+
+  price
+
+  quantity
+
+Create subclasses:
+
+  VegItem
+
+  NonVegItem
+
+Create module Discount:
+
+Functions:
+
+  Add items to cart
+
+  Remove items
+
+  Calculate total amount
+
+  Apply discounts
+
+  Raise exceptions for invalid quantity.
