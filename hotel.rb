@@ -25,10 +25,6 @@ class Hotel
     end
   end
 
-  def show_items_in_cart_based(category)
-    @cart.select {|o| }  
-  end
-
   def show_items_in_cart
     if @cart.empty?
       puts "Cart is empty"
