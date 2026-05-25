@@ -25,3 +25,12 @@ Functions:
   Apply discounts
 
   Raise exceptions for invalid quantity.
+
+class InvalidQuantity < Exception
+end
+
+begin
+  raise InvalidQuantity "This is a custom exception"
+rescue InvalidQuantity => e
+  puts "Just raised an exception #{e}"
+end

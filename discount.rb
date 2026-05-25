@@ -1,5 +1,6 @@
 module Discount
-  def total_amount(price, discount)
-    price = price - discount
+  attr_accessor :amount
+  def apply_discount(total_amount, discount_amount)
+    amount = total_amount - discount_amount
   end
 end
