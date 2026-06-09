@@ -1,0 +1,2 @@
+class InvalidQuantity < StandardError
+end
